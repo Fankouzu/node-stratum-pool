@@ -1,6 +1,6 @@
 {
     "name": "stratum-pool-taproot",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "High performance Stratum poolserver in Node.js",
     "keywords": [
         "stratum",
@@ -30,7 +30,7 @@
     "dependencies": {
         "async": "*",
         "base58-native": "*",
-        "bech32": "^2.0.0",
+        "bech32-buffer": "^0.2.1",
         "multi-hashing-taproot": "1.0.0"
     },
     "engines": {
