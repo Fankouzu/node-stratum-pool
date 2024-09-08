@@ -28,9 +28,10 @@
         "url": "https://github.com/Fankouzu/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing-taproot": "1.0.0",
+        "async": "*",
         "base58-native": "*",
-        "async": "*"
+        "bech32": "^2.0.0",
+        "multi-hashing-taproot": "1.0.0"
     },
     "engines": {
         "node": ">=0.10"
